@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Основная тема приложения -->
+    <style name="Theme.TurnIt" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Цвет текста или иконок поверх основного цвета -->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Вторичный цвет (для акцентов) -->
+        <item name="colorSecondary">@color/white</item>
+        <!-- Контейнер вторичного цвета -->
+        <item name="colorSecondaryContainer">@color/white10</item>
+        <!-- Цвет текста или иконок поверх вторичного цвета -->
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Цвет Ripple Effect (эффекта нажатия) -->
+        <item name="colorControlHighlight">@color/white</item>
+
+
+        <!-- Цвет поверхности (например, карточек) -->
+        <item name="colorSurface">@color/darkgray</item>
+        <!-- Цвет текста и иконок поверх поверхности -->
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+</resources>

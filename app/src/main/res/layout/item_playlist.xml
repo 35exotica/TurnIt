@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="2dp">
+
+    <LinearLayout
+        android:background="@color/darkgray"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/playlistNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Playlist Name"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/playlistDescriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Playlist Description"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/deleteButton"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Delete Playlist"
+            android:src="@drawable/ic_remove" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

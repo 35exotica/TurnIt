@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/black"
+    >
+
+    <!-- Заголовок -->
+    <TextView
+        android:id="@+id/welcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать в TurnIt!"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Описание -->
+    <TextView
+        android:id="@+id/welcomeSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Откройте для себя множество различных треков, создавайте плейлисты и наслаждайтесь любимыми мелодиями в любое время."
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:paddingBottom="32dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="40"/>
+
+    <!-- Кнопка входа -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Войти"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:stateListAnimator="@animator/button_state_animator"/>
+
+    <!-- Кнопка регистрации -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Зарегистрироваться"
+        android:shadowColor="@color/white"
+        android:textColor="@color/black"
+        android:stateListAnimator="@animator/button_state_animator"/>
+</LinearLayout>

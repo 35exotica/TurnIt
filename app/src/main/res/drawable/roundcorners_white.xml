@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Устанавливаем прозрачный фон -->
+    <solid android:color="@android:color/transparent" />
+    <!-- Устанавливаем фиолетовую обводку -->
+    <stroke android:width="2dp" android:color="#FFFFFF" />
+    <!-- Устанавливаем скругленные углы -->
+    <corners android:radius="10dp" />
+</shape>
